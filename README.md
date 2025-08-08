@@ -45,8 +45,10 @@ Body:
         "title": "Service Invoice #123",
         "amount": 150.75
     }
-
+```
+```bash
 GET /payments
-
+```
+```bash
 PATCH /payments/:id/pay
 ```
