@@ -36,3 +36,13 @@ npx prisma migrate dev --name init
 ```bash
 npm run dev
 ```
+
+### API Routes
+```bash
+POST /payments
+Body:
+    {
+        "title": "Service Invoice #123",
+        "amount": 150.75
+    }
+```
