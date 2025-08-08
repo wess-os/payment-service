@@ -1,8 +1,23 @@
-<h4>Payment Service (Hexagonal Architecture)</h4>
+# Payment Service – Hexagonal Architecture with Node.js & Prisma
 
-<ul>
-    <li>1 - rename .env-example to .env</li>
-    <li>2 - run ```bash npm i```</li>
-    <li>3 - run ```bash npx prisma migrate dev --name init```</li>
-    <li>4 - run ```bash npm run dev```</li>
-</ul>
+## Description
+
+The Payment Service is a study-oriented project built to demonstrate Hexagonal Architecture (Ports & Adapters) in a Node.js environment, integrating with Prisma ORM and using Express as the web adapter.
+
+The service manages charges and payments, allowing you to create charges, list all payments, and mark them as paid.
+It follows the Domain-Driven Design principles and keeps the business logic fully decoupled from external frameworks and databases.
+
+## Features
+
+- Create a Payment Charge – Register a new charge with title and amount.
+- List All Payments – Retrieve all created payments (paid or unpaid).
+- Mark Payment as Paid – Update a specific payment's status to paid.
+- Hexagonal Architecture Structure – Clean separation between Domain, Application, and Infrastructure layers.
+- ORM Integration – Uses Prisma ORM with SQLite for database management.
+
+## How to Run
+
+1. Rename .env-example to .env
+2. Run ```bash npm i```
+3. Run ```bash npx prisma migrate dev --name init```
+4. Run ```bash npm run dev```
