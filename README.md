@@ -45,4 +45,8 @@ Body:
         "title": "Service Invoice #123",
         "amount": 150.75
     }
+
+GET /payments
+
+PATCH /payments/:id/pay
 ```
