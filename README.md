@@ -17,19 +17,20 @@ It follows the Domain-Driven Design principles and keeps the business logic full
 
 ## How to Run
 
-1. Rename .env-example to .env
+1. 
+Rename .env-example to .env
 
-2. Run:
+2.
 ```bash
 npm i
 ```
 
-3. Run:
+3.
 ```bash
 npx prisma migrate dev --name init
 ```
 
-4. Run:
+4.
 ```bash
 npm run dev
 ```
